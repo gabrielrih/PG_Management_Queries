@@ -8,3 +8,7 @@ SELECT
 	query
 FROM pg_stat_activity S
 ORDER BY usename desc
+
+
+-- or just...
+select * from pg_catalog.pg_stat_activity 
